@@ -35,6 +35,10 @@ public class StartSelenium {
         wd.findElement(By.cssSelector("[href$='ome']")); //$ ends with some text
         //
 
+        wd.findElement(By.cssSelector("[href='/about']"));
+        wd.findElement(By.cssSelector("[href*='bou']"));
+        wd.findElement(By.linkText("ABOUT"));
+
     }
 
     @AfterTest
