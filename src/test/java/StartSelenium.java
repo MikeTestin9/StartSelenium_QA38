@@ -38,7 +38,7 @@ public class StartSelenium {
             wd.findElement(By.cssSelector("[href*='om']")); // * atribute contains some txt
             wd.findElement(By.cssSelector("[href^='/ho']")); // ^ atr begins in that letters
             wd.findElement(By.cssSelector("[href$='ome']")); //$ ends with some text
-        //
+        ////  in xpath no part search. it looks onlt for artibutes. part pg text is not atribute
         wd.findElement(By.cssSelector("[href='/login']"));
             wd.findElement(By.xpath("//a[@href='/login']"));
         wd.findElement(By.cssSelector("[href*='og']"));
